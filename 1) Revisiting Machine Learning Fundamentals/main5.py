@@ -1,4 +1,4 @@
-//create a correlation heatmap using Seaborn to visualize how strongly each feature in the California housing dataset relates to every other feature
+# create a correlation heatmap using Seaborn to visualize how strongly each feature in the California housing dataset relates to every other feature
 
 import pandas as pd
 import matplotlib.pyplot as plt

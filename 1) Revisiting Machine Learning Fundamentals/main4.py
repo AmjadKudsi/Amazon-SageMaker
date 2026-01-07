@@ -1,4 +1,4 @@
-// create a histogram that displays the distribution of house values in the California housing dataset
+# create a histogram that displays the distribution of house values in the California housing dataset
 
 import pandas as pd
 import matplotlib.pyplot as plt

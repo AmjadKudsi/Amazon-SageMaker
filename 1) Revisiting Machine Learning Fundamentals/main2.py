@@ -1,4 +1,4 @@
-// examine the structure and schema of the California housing dataset using pandas powerful inspection methods
+# examine the structure and schema of the California housing dataset using pandas powerful inspection methods
 
 import pandas as pd
 
