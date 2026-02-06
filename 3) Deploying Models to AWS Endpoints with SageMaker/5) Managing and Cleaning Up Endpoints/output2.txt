@@ -1,0 +1,137 @@
+- california-housing-realtime (InService)
+{
+  "EndpointConfigName": "california-housing-realtime",
+  "EndpointConfigArn": "arn:aws:sagemaker:us-east-1:477391721030:endpoint-config/california-housing-realtime",
+  "ProductionVariants": [
+    {
+      "VariantName": "AllTraffic",
+      "ModelName": "sagemaker-scikit-learn-2026-02-04-19-34-46-115",
+      "InitialInstanceCount": 1,
+      "InstanceType": "ml.m5.large",
+      "InitialVariantWeight": 1.0
+    }
+  ],
+  "CreationTime": "2026-02-04 19:34:47.047000+00:00",
+  "EnableNetworkIsolation": false,
+  "ResponseMetadata": {
+    "RequestId": "1a35d049-4276-4787-87e6-c8acb8f509b6",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "1a35d049-4276-4787-87e6-c8acb8f509b6",
+      "strict-transport-security": "max-age=47304000; includeSubDomains",
+      "x-frame-options": "DENY",
+      "content-security-policy": "frame-ancestors 'none'",
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "x-content-type-options": "nosniff",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "416",
+      "date": "Thu, 05 Feb 2026 20:46:40 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}
+- california-housing-modeltrainer (InService)
+{
+  "EndpointConfigName": "california-housing-modeltrainer",
+  "EndpointConfigArn": "arn:aws:sagemaker:us-east-1:477391721030:endpoint-config/california-housing-modeltrainer",
+  "ProductionVariants": [
+    {
+      "VariantName": "AllTraffic",
+      "ModelName": "sagemaker-scikit-learn-2026-02-04-19-31-43-588",
+      "InitialVariantWeight": 1.0,
+      "ServerlessConfig": {
+        "MemorySizeInMB": 2048,
+        "MaxConcurrency": 10
+      },
+      "VolumeSizeInGB": 5
+    }
+  ],
+  "CreationTime": "2026-02-04 19:31:44.363000+00:00",
+  "EnableNetworkIsolation": false,
+  "ResponseMetadata": {
+    "RequestId": "2a4ef920-52ca-4274-8e1d-c381170d4376",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "2a4ef920-52ca-4274-8e1d-c381170d4376",
+      "strict-transport-security": "max-age=47304000; includeSubDomains",
+      "x-frame-options": "DENY",
+      "content-security-policy": "frame-ancestors 'none'",
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "x-content-type-options": "nosniff",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "452",
+      "date": "Thu, 05 Feb 2026 20:46:40 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}
+- california-housing-estimator (InService)
+{
+  "EndpointConfigName": "california-housing-estimator",
+  "EndpointConfigArn": "arn:aws:sagemaker:us-east-1:477391721030:endpoint-config/california-housing-estimator",
+  "ProductionVariants": [
+    {
+      "VariantName": "AllTraffic",
+      "ModelName": "sagemaker-scikit-learn-2026-02-04-19-28-10-126",
+      "InitialVariantWeight": 1.0,
+      "ServerlessConfig": {
+        "MemorySizeInMB": 2048,
+        "MaxConcurrency": 10
+      },
+      "VolumeSizeInGB": 5
+    }
+  ],
+  "CreationTime": "2026-02-04 19:28:11.096000+00:00",
+  "EnableNetworkIsolation": false,
+  "ResponseMetadata": {
+    "RequestId": "afeb9836-1943-4ed9-83db-4d3a8d779e5a",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "afeb9836-1943-4ed9-83db-4d3a8d779e5a",
+      "strict-transport-security": "max-age=47304000; includeSubDomains",
+      "x-frame-options": "DENY",
+      "content-security-policy": "frame-ancestors 'none'",
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "x-content-type-options": "nosniff",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "446",
+      "date": "Thu, 05 Feb 2026 20:46:41 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}
+- california-housing-local-model (InService)
+{
+  "EndpointConfigName": "california-housing-local-model",
+  "EndpointConfigArn": "arn:aws:sagemaker:us-east-1:477391721030:endpoint-config/california-housing-local-model",
+  "ProductionVariants": [
+    {
+      "VariantName": "AllTraffic",
+      "ModelName": "sagemaker-scikit-learn-2026-02-04-19-25-07-438",
+      "InitialVariantWeight": 1.0,
+      "ServerlessConfig": {
+        "MemorySizeInMB": 2048,
+        "MaxConcurrency": 10
+      },
+      "VolumeSizeInGB": 5
+    }
+  ],
+  "CreationTime": "2026-02-04 19:25:08.322000+00:00",
+  "EnableNetworkIsolation": false,
+  "ResponseMetadata": {
+    "RequestId": "dce99962-9a23-4d18-a047-a3d44871de30",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "x-amzn-requestid": "dce99962-9a23-4d18-a047-a3d44871de30",
+      "strict-transport-security": "max-age=47304000; includeSubDomains",
+      "x-frame-options": "DENY",
+      "content-security-policy": "frame-ancestors 'none'",
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "x-content-type-options": "nosniff",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "450",
+      "date": "Thu, 05 Feb 2026 20:46:41 GMT"
+    },
+    "RetryAttempts": 0
+  }
+}

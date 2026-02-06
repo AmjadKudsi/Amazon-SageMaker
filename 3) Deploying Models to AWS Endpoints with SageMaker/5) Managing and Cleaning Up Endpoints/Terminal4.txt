@@ -1,0 +1,67 @@
+/usercode/FILESYSTEM$ bash /usercode/FILESYSTEM/.codesignal/setup.sh -a
+Setting up environment...
+✔ Dataset cached successfully!
+Setup complete!
+/usercode/FILESYSTEM$ aws sagemaker list-endpoints
+{
+    "Endpoints": [
+        {
+            "EndpointName": "california-housing-realtime",
+            "EndpointArn": "arn:aws:sagemaker:us-east-1:477391721030:endpoint/california-housing-realtime",
+            "CreationTime": "2026-02-05T21:20:52.136000+00:00",
+            "LastModifiedTime": "2026-02-05T21:24:18.382000+00:00",
+            "EndpointStatus": "InService"
+        },
+        {
+            "EndpointName": "california-housing-modeltrainer",
+            "EndpointArn": "arn:aws:sagemaker:us-east-1:477391721030:endpoint/california-housing-modeltrainer",
+            "CreationTime": "2026-02-05T21:16:48.819000+00:00",
+            "LastModifiedTime": "2026-02-05T21:20:20.503000+00:00",
+            "EndpointStatus": "InService"
+        },
+        {
+            "EndpointName": "california-housing-estimator",
+            "EndpointArn": "arn:aws:sagemaker:us-east-1:477391721030:endpoint/california-housing-estimator",
+            "CreationTime": "2026-02-05T21:13:15.508000+00:00",
+            "LastModifiedTime": "2026-02-05T21:16:36.660000+00:00",
+            "EndpointStatus": "InService"
+        },
+        {
+            "EndpointName": "california-housing-local-model",
+            "EndpointArn": "arn:aws:sagemaker:us-east-1:477391721030:endpoint/california-housing-local-model",
+            "CreationTime": "2026-02-05T21:09:12.306000+00:00",
+            "LastModifiedTime": "2026-02-05T21:12:44.142000+00:00",
+            "EndpointStatus": "InService"
+        }
+
+/usercode/FILESYSTEM$ aws sagemaker delete-endpoint --endpoint-name california-housing-realtime
+
+/usercode/FILESYSTEM$ aws sagemaker delete-endpoint-config --endpoint-config-name california-housing-realtime
+
+/usercode/FILESYSTEM$  aws sagemaker list-endpoints
+{
+    "Endpoints": [
+        {
+            "EndpointName": "california-housing-modeltrainer",
+            "EndpointArn": "arn:aws:sagemaker:us-east-1:477391721030:endpoint/california-housing-modeltrainer",
+            "CreationTime": "2026-02-05T21:16:48.819000+00:00",
+            "LastModifiedTime": "2026-02-05T21:20:20.503000+00:00",
+            "EndpointStatus": "InService"
+        },
+        {
+            "EndpointName": "california-housing-estimator",
+            "EndpointArn": "arn:aws:sagemaker:us-east-1:477391721030:endpoint/california-housing-estimator",
+            "CreationTime": "2026-02-05T21:13:15.508000+00:00",
+            "LastModifiedTime": "2026-02-05T21:16:36.660000+00:00",
+            "EndpointStatus": "InService"
+        },
+        {
+            "EndpointName": "california-housing-local-model",
+            "EndpointArn": "arn:aws:sagemaker:us-east-1:477391721030:endpoint/california-housing-local-model",
+            "CreationTime": "2026-02-05T21:09:12.306000+00:00",
+            "LastModifiedTime": "2026-02-05T21:12:44.142000+00:00",
+            "EndpointStatus": "InService"
+        }
+    ]
+}
+/usercode/FILESYSTEM$ 
