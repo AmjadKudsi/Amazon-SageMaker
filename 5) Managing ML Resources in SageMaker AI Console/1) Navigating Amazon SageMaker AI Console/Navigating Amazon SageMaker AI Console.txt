@@ -1,0 +1,12 @@
+# Navigating Amazon SageMaker AI Console
+
+Open the AWS Console in a new tab, login, and return here to answer the questions.
+
+Q) What is the name of the latest training job? 
+=> sklearn-modeltrainer-20260211201240
+
+Q) What is the S3 model artifact URI of the latest training job?
+=> s3://sagemaker-us-east-1-399359780063/models/california-housing/sklearn-modeltrainer-20260211201240/output/model.tar.gz 
+
+Q) What is the ARN of the model associated with the california-housing-estimator endpoint?
+=> arn:aws:sagemaker:us-east-1:399359780063:model/sagemaker-scikit-learn-2026-02-11-20-18-43-158

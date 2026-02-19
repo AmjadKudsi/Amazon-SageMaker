@@ -1,0 +1,15 @@
+# Managing Resources in SageMaker AI Console
+
+Open the AWS Console in a new tab, login, and return here to answer the questions.
+
+Task) Create an endpoint named 'new-endpoint' from the existing california-housing-modeltrainer endpoint configuration *
+✅
+
+Task) Create a new model named 'my-model' from the latest training job starting with 'sagemaker-scikit-learn' *
+✅
+
+Task) Create a new serverless endpoint configuration named 'my-endpoint-config' using the new model *
+✅
+
+Task) Create an endpoint named 'my-endpoint' using the new endpoint configuration *
+✅

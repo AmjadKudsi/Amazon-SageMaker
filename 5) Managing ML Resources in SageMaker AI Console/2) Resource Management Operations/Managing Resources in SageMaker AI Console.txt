@@ -1,0 +1,15 @@
+# Managing Resources in SageMaker AI Console
+
+Open the AWS Console in a new tab, login, and return here to answer the questions.
+
+Task) Update the california-housing-modeltrainer endpoint runtime settings to have a maximum concurrency of 15 instances *
+✅
+
+Task) Delete the california-housing-estimator endpoint *
+✅
+
+Task) Delete the endpoint configuration associated with the california-housing-estimator endpoint *
+✅
+
+Task) Delete the model associated with the california-housing-estimator endpoint from your models *
+✅

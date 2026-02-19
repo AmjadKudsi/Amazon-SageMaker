@@ -1,0 +1,6 @@
+# Monitoring Endpoints with CloudWatch Alarms
+
+Open the AWS Console in a new tab, login, and return here to answer the questions.
+
+Task) Create a CloudWatch alarm for the california-housing-estimator endpoint that monitors model latency (max latency, 1-minute periods, 3 consecutive periods, threshold 700,000 microseconds) *
+✅
